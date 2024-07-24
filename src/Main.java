@@ -21,10 +21,10 @@ public class Main {
         System.out.println(carro1.getDescricao());
         System.out.println(carro2.getDescricao());
         System.out.println(carro3.getDescricao());
-        System.out.println(carro1.trocaDeoleo());
-        System.out.println(carro1.revisaoFreios());
-        System.out.println(carro1.consumoMedioKilometro(500, 5));
-        System.out.println(carro1.consumoViagem(250));
+        System.out.println(Carro.trocaDeOleo(8000));
+        System.out.println(Carro.revisaoFreios(15000));
+        System.out.println(Carro.consumoMedioKilometro(500, 5));
+        System.out.println(Carro.consumoViagem(250));
 
 
     }
